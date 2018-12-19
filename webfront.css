@@ -296,7 +296,7 @@ div.ipsWebFront {
 
 .content > .configurators .edit,
 .content > .configurators .lock {
-    filter: invert(0.2);
+    filter: invert(0.1);
 }
 
 .ipsCategory>.container.hasChildren>.content>.icon {

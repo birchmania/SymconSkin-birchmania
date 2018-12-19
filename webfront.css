@@ -20,14 +20,13 @@ body{
 	min-width: 50px;
 	text-align: center; }
 
-.ipsTabPane > .navigation 
-{
+.ipsTabPane > .navigation {
 	border-bottom: solid 1px #e1e1e1;
-	background: blue; }
+	background: #c19939; }
 
 .ipsContentChanger > .navigation {
 	border-bottom: solid 1px #e1e1e1;
-	background: green; }
+	background: ##C139A0; }
 
 .ipsTabPane>.navigation>.scroll>.buttons>div {
 	margin-bottom: -2px; }

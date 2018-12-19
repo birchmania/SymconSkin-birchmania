@@ -291,12 +291,12 @@ div.ipsWebFront {
 .icon,
 .iconSmall,
 .edit {
-    filter: invert(0.9);
+    filter: invert(0.6);
 }
 
 .content > .configurators .edit,
 .content > .configurators .lock {
-    filter: invert(0.9);
+    filter: invert(0.6);
 }
 
 .ipsCategory>.container.hasChildren>.content>.icon {

@@ -22,7 +22,7 @@ body{
 
 .ipsTabPane > .navigation, .ipsContentChanger > .navigation{
 	border-bottom: solid 1px #e5e5e5;
-	background: #3aa9ff!important; }
+	background: ##0a101a!important; }
 
  
 
@@ -55,7 +55,7 @@ div.ipsWebFront {
 	font-weight: 400; }
 	
 .ipsCategory {
-	padding: 0 0 0 0; }
+	padding: 15px 0 0 0; }
 
 .ipsPanel >.container {
 	color: #747474;

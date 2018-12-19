@@ -20,10 +20,11 @@ body{
 	min-width: 50px;
 	text-align: center; }
 
-.ipsTabPane > .navigation, 
+.ipsTabPane > .navigation 
 {
 	border-bottom: solid 1px #e1e1e1;
-	background: red!important; }
+	background: blue!important; }
+
 .ipsContentChanger > .navigation{
 	border-bottom: solid 1px #e1e1e1;
 	background: green!important; }

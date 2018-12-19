@@ -291,7 +291,7 @@ div.ipsWebFront {
 .icon,
 .iconSmall,
 .edit {
-    filter: invert(0.6);
+    filter: invert(0.1);
 }
 
 .content > .configurators .edit,

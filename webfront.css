@@ -22,7 +22,7 @@ body{
 
 .ipsTabPane > .navigation, .ipsContentChanger > .navigation{
 	border-bottom: solid 1px #e5e5e5;
-	background: #0a101a!important; }
+	background: #3aa9ff!important; }
 
  
 
@@ -291,12 +291,12 @@ div.ipsWebFront {
 .icon,
 .iconSmall,
 .edit {
-    filter: invert(0.6);
+    filter: invert(0.9);
 }
 
 .content > .configurators .edit,
 .content > .configurators .lock {
-    filter: invert(0.6);
+    filter: invert(0.9);
 }
 
 .ipsCategory>.container.hasChildren>.content>.icon {

@@ -23,11 +23,11 @@ body{
 .ipsTabPane > .navigation 
 {
 	border-bottom: solid 1px #e1e1e1;
-	background: blue!important; }
+	background: blue; }
 
-.ipsContentChanger > .navigation{
+.ipsContentChanger > .navigation {
 	border-bottom: solid 1px #e1e1e1;
-	background: green!important; }
+	background: green; }
 
 .ipsTabPane>.navigation>.scroll>.buttons>div {
 	margin-bottom: -2px; }

@@ -1,0 +1,328 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url(fonts/Raleway/Raleway-Light.ttf);
+    font-weight: 300;
+    font-style: normal; }
+
+/* Schriftart ändern */
+
+.ipsTabPane > .navigation {
+	font-family: 'Raleway', 'Arial Narrow', sans-serif; }
+}
+
+body {
+	font-family: 'Raleway', 'Arial Narrow', sans-serif; }
+	font-size: 19px;
+}
+
+.ipsDWDReport .title {
+	font-family: 'Raleway', 'Arial Narrow', sans-serif; }
+}
+
+.ipsLogin > .pageTitle {
+	font-family: 'Raleway', 'Arial Narrow', sans-serif; }
+}
+
+/* Logo austauschen */
+
+.ipsLogin>.logo {
+	background-image: url(./img/Logo_Knockaut_RGB_100dpi_CMYK_negativ.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: absolute;
+
+	width: 50%;
+	top: 15%;
+	left: 0;
+	margin-left: 25%;
+	margin-top: 20px;
+}
+
+/* Farbe verändern */
+
+/* Hintergrund beim Loging */
+.ipsLogin {
+	background-color: #36302F;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+
+}
+
+/* Balken mit WebFronts beim Loging */
+.ipsLogin>.content>.configurators {
+	background-color: #36302F;
+	border-color: #B5E10A;
+}
+
+/* Unbekannt */
+.ipsWebFront {
+	background-color: #7a7a7a;
+}
+
+/* Navigationsbalke in der erste Reihe */
+.ipsWebFront>.ipsTabPane>.navigation {
+	background-color: #151312;
+	border-color: #000000;
+
+}
+
+/* Navigationsbalke ab der zweite Reihe */
+.ipsTabPane>.navigation {
+	background-color: #7a7a7a;
+
+	border-style: solid;
+	border-width: 1px;
+	border-color: #151312;
+	color: #f1f1f1;
+}
+
+/* Hintergrund innerhalb des WebFront (nur Browser) */
+.ipsTabPane>.content {
+	background-color: #f1f1f1;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+/* Deckkraft der Zellen in der Navigation Wert 0 - 1 */
+.ipsTabPane>.navigation>.scroll>.buttons>div {
+	opacity: 1;
+}
+
+/* aktive Navigationszelle */
+.ipsTabPane>.navigation>.scroll>.buttons>div.active {
+	background-color: rgba(255,255,255,0.15);
+}
+
+
+
+/* Wen eine einzelne Variable angezeigt wird. Wird benötigt damit einzelne Variablen anders dargestellt werden wie Module. */
+.ipsCategory>.container {
+	background-color: #7a7a7a;
+	border-style: solid;
+	border-width: 1px;
+	
+	border-color: #7a7a7a;
+	border-image-slice: 1;
+	color: #f1f1f1;
+}
+
+/* Modul / Instanz. Der Rand ist mit .container verknüpft */
+.ipsCategory>.container.hasChildren {
+	
+
+}
+
+.ipsCategory>.container.hasChildren>.content>.icon {
+	filter: invert(0);
+}
+
+/* Variablen innerhalb eines Moduls (auch Dummy Module) */
+.ipsCategory>.container>.childContainers {
+	background-color: #a3a3a3;
+	color: #FFFFFF;
+	border-color: #787875;
+}
+
+/* Trennlinien zwischen Variablen innerhalb eines Moduls */
+.ipsCategory>.container .childContainers>div {
+	border-color: #787875;
+	border-width: 1px;
+}
+
+/* Variablen Zelle */
+.ipsCategory>.container .content .visual>.enum {
+	padding: 2px 0 0px;
+}
+
+/* Inaktive Wertauswahl z.B. "Aus" innerhalb eines Modul */
+.ipsCategory>.container .content .visual>.enum>div {
+	background-image: -webkit-linear-gradient(bottom,rgba(255,255,255,0) 0,rgba(255,255,255,0.5) 100%);
+	background-color: #000000;
+	border-style: none;
+	color: rgba(255, 255, 255, 0.6);
+	filter: grayscale();
+}
+
+/* Aktive Wertauswahl z.B. "An" innerhalb eines Modul */
+.ipsCategory>.container .content .visual>.enum>.selected {
+	filter: none;
+	background-image: -webkit-linear-gradient(bottom,rgba(255,255,255,0) 0,rgba(255,255,255,0.25) 100%);
+	background-color: rgba(255,255,255,0.15);
+	border-style: none;
+	color: #FFFFFF;
+}
+
+.ipsCategory>.container .content .visual>.selector {
+	padding: 2px 0 0px;
+}
+
+/* Nicht ausgewählte Werte von Integer Variablen */
+.ipsCategory>.container .content .visual>.selector>div {
+	background-image: -webkit-linear-gradient(bottom,rgba(255,255,255,0) 0,rgba(255,255,255,0.5) 100%);
+	background-color: #000000;
+	border-style: none;
+	color: rgba(255, 255, 255, 0.6);
+	min-height: 29px;
+}
+
+/* Ausgewählte Werte einer Integer Variable */
+.ipsCategory>.container .content .visual>.selector>.selected {
+	background-image: -webkit-linear-gradient(bottom,rgba(255,255,255,0) 0,rgba(255,255,255,0.25) 100%);
+	background-color: rgba(255,255,255,0.15);
+	border-style: none;
+	color: #FFFFFF;
+}
+
+.ipsCategory > .container .content .visual > .text > input[type=text] {
+	color: #787875;
+}
+
+.ipsCategory>.container .content .visual>.text.colored {
+	background-image: -webkit-linear-gradient(bottom,rgba(255,255,255,0) 0,rgba(255,255,255,0.25) 100%);
+	color: #FFFFFF;
+	border-style: none;
+}
+
+/* Korrektur Prozentzahl- und Sliderposition */
+.ipsCategory>.container .content .visual>.slider {
+	margin-right: 60px;
+}
+.ipsCategory>.container .content .visual>.slider>div>.text {
+	right: -55px;
+}
+
+/* Slider Hintergrund (Balkenfarbe bei 0%). Nur von den Geraden Slider */
+.ipsCategory>.container .content .visual>.slider>div>.background {
+	background-image: -webkit-linear-gradient(bottom,rgba(255,255,255,0) 0,rgba(255,255,255,0.5) 100%);
+	background-color: #000000;
+	border-style: none;
+}
+
+/* Slider Deckbalke (Balkenfarbe bei 100%). Nur von den Geraden Slider */
+.ipsCategory>.container .content .visual>.slider>div>.bar {
+	background-image: -webkit-linear-gradient(bottom,rgba(255,255,255,0) 0,rgba(255,255,255,0.5) 100%);
+	border-style: none;
+	background-color: #B5E10A;
+}
+
+/* .Icon sind die Icons links neben der Schrift */
+.ipsCategory>.container .content .icon {
+	filter: invert(0);
+}
+
+/* Invertieren von Symbolen */
+.ipsCategory>.container .content .link>.keyboardLink,
+.ipsCategory>.container .content .link>.chartLink,
+.ipsCategory>.container .content .link>.timerLink,
+.ipsCategory>.container .content .link>.runLink,
+.ipsCategory>.container .content .link>.colorLink,
+.ipsCategory>.container .content .link>.enumLink {
+	filter: invert(0.6);
+}
+
+/* Statistik Fenster angezeigt */
+.ipsDialog>div {
+	color: #FFFFFF;
+	background-color: #222222;
+	border-color: #151312;
+}
+
+/* Titelbereich des Statistik Fenster */
+.ipsDialog>div>.title {
+	color: #FFFFFF;
+	background-color: #000000;
+	width: 98%;
+	padding: 10px 0 6px 2%;
+}
+
+.ipsDialog.ipsEditorDialog>div>.content>ol>li>input[type=text],
+.ipsDialog.ipsEditorDialog>div>.content>ol>li>select,
+.ipsDialog.ipsEditorDialog>div>.content>select {
+	border: 1px solid rgba(0,107,178,0.2);
+	color: #787875;
+}
+
+.ipsDialog.ipsEditorDialog>div>.content>ol>li>select>option,
+.ipsDialog.ipsEditorDialog>div>.content>select>option {
+	background-color: #FFFFFF;
+}
+
+.ipsDialog.ipsEditorDialog>div>.remove,
+.ipsDialog.ipsEditorDialog>div>.save,
+.ipsDialog.ipsEditorSelectDialog>div>.content .treeIcon,
+.ipsDialog.ipsEditorSelectDialog>div>.content label {
+	filter: invert(0.6);
+}
+
+.ipsDialog.ipsCirclesliderDialog svg text {
+	fill: #FFFFFF;
+}
+
+.ipsDialog.ipsCirclesliderDialog .backgroundCircle {
+	fill: #222222;
+}
+
+.ipsDialog.ipsCirclesliderDialog .progressBar {
+	stroke: #B5E10A;
+}
+
+.ipsDialog.ipsCirclesliderDialog .backgroundStripesCircle {
+	stroke: #787875;
+}
+
+/* Rundslider "Halteknopf" */
+.ipsDialog.ipsCirclesliderDialog .sliderHandle {
+	fill: #000000;
+	stroke: #000000;
+}
+
+.ipsDialog.ipsChartDialog>div>.buttons>.prev,
+.ipsDialog.ipsChartDialog>div>.buttons>.next {
+	filter: invert(0.6);
+}
+
+.ipsDialog.ipsChartDialog>div>.topRightBox {
+	color: #FFFFFF;
+}
+
+.ipsDialog.ipsEventDialog>.ipsScheduleDialog>.content {
+	filter: invert(0);
+	color: #FFFFFF;
+}
+
+.ipsDialog.ipsScheduleEntryDialog>div>.buttons,
+.ipsDialog.ipsMailDialog>div>.buttons,
+.ipsDialog.Dialog>div>.buttons,
+.ipsDialog.ipsChartDialog>div>.buttons {
+	filter: invert(0.6);
+}
+
+.ipsDialog.ipsEventDialog>div>.content>.outerCenter>.center>.linesContainer>.touchContainer>.sliderContainer>.slider {
+	filter: invert(1);
+}
+
+.ipsDialog.ipsEventDialog .buttons,
+.ipsDialog.ipsDateTimeDialog .buttons {
+	filter: invert(0.6);
+}
+.ipsScheduleEntryDialog .leftContainer {
+	filter: invert(0.6);
+}
+.ipsScheduleEntryDialog .rightContainer {
+	filter: invert(1);
+}
+
+.ipsDialog.ipsScheduleEntryDialog .leftSide .colorSphere {
+	filter: invert(1);
+}
+
+div.ipsChart>svg>g.graphs>g.background>g>path,
+div.ipsChart>svg>g.grid>line.gridLine,
+div.ipsChart>svg>g.graphs>g.outline>g>path {
+	stroke: #787875;
+}
+
+div.ipsChart>svg>g.axis>g.labels>text {
+	fill: #787875;
+}

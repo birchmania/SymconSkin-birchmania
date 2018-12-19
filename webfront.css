@@ -22,7 +22,7 @@ body{
 
 .ipsTabPane > .navigation, .ipsContentChanger > .navigation{
 	border-bottom: solid 1px #e5e5e5;
-	background: #111111!important; }
+	background: #3aa9ff!important; }
 
  
 
@@ -37,7 +37,7 @@ body{
 	
 div.ipsLogin,
 div.ipsWebFront {
-	color: #a7dd7d;
+	color: white;
 	background: #f9f9f9; /* Old browsers */
 	background: -moz-radial-gradient(center, ellipse cover, #f9f9f9 0%, #e3e7eb 100%); /* FF3.6-15 */
 	background: -webkit-radial-gradient(center, ellipse cover, #f9f9f9 0%,#e3e7eb 100%); /* Chrome10-25,Safari5.1-6 */

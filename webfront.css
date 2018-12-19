@@ -20,13 +20,11 @@ body{
 	min-width: 50px;
 	text-align: center; }
 
-.ipsTabPane > .navigation {
-	border-bottom: solid 1px #e1e1e1;
-	background: #c19939; }
+.ipsTabPane > .navigation, .ipsContentChanger > .navigation{
+	border-bottom: solid 1px #e5e5e5;
+	background: white!important; }
 
-.ipsContentChanger > .navigation {
-	border-bottom: solid 1px #e1e1e1;
-	background: ##C139A0; }
+ 
 
 .ipsTabPane>.navigation>.scroll>.buttons>div {
 	margin-bottom: -2px; }
@@ -68,7 +66,7 @@ div.ipsWebFront {
 	padding-right: 10px; }
 
 /*
-*	Ident all objects with children uner the main cathegory
+*	Ident all objects with children uner the main category
 */
 .ipsInstancePopup > div > .content > .ipsCategory  > .ipsContainer.container.hasChildren .ipsContainer.hasChildren,	
 .content.exclusive > .ipsCategory  > .ipsContainer.container.hasChildren .ipsContainer.hasChildren {

@@ -7,17 +7,7 @@
 body{ 
 	font-family: 'Raleway', sans-serif; }
 
-/* Logo austauschen */
 
-.ipsLogin>.logo {
-	background-image: url(./img/Logo_Knockaut_RGB_100dpi_CMYK_negativ.png);
-	background-position: center;
-	background-repeat: no-repeat;
-	position: absolute;
-width: 50%;
-	top: 15%;
-
-}
 
 
 .ipsTabPane>.navigation {
@@ -488,14 +478,22 @@ div.ipsPanel.ipsDWDReport .title {
  */	
 
 .ipsLogin .logoTop {
-	/* background-image: url(../img/logo.svg);  FIXME: blue Logo */
-	filter: invert(100%);
+	background-image: url(./img/Logo_Knockaut_RGB_100dpi_CMYK_negativ.png);
+	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+	position: absolute;
+	width: 50%;
+	top: 15%;
+	left: 0;
+	margin-left: 25%;
+	margin-top: 20px;
+	/*
     height: 100px;
     margin-left: -200px;
     margin-top: -100px;
-    width: 400px; }
+    width: 400px;*/
+}
 
 .ipsLogin>.content {
 	margin: 0;

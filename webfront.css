@@ -7,6 +7,23 @@
 body{ 
 	font-family: 'Raleway', sans-serif; }
 
+/* Logo austauschen */
+
+.ipsLogin>.logo {
+	background-image: url(./img/Logo_Knockaut_RGB_100dpi_CMYK_negativ.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: absolute;
+
+	width: 50%;
+	top: 15%;
+	left: 0;
+	margin-left: 25%;
+	margin-top: 20px;
+}
+
+
 .ipsTabPane>.navigation {
 	font-family: 'Raleway', sans-serif; }
 

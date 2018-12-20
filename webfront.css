@@ -414,7 +414,7 @@ html body .ipsDialog.ipsChartDialog > div {
 div.ipsChart>svg>g.axis>g.labels>text {
 	color : black;
 	fill: black;
-	font-family: 'Open Sans'; }
+	font-family: 'Raleway'; }
 div.ipsChart>svg>g.grid>line.gridLine {
     stroke: #606060; }
 .ipsChart .ipsLegend {
@@ -540,7 +540,7 @@ div.ipsPanel.ipsDWDReport .title {
 	top: 75%; }
 
 .ipsLogin>.content>.throbber .iconSpinner {
-	background-image: url(img/spinner.svg); }
+	/*background-image: url(img/spinner.svg);*/ }
     
 .ipsLogin>.content>div.password>input {
     background: white;

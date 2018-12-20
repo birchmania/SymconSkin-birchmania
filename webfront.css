@@ -109,7 +109,11 @@ div.ipsWebFront {
 .ipsTabPane > .navigation ,
 .ipsContentChanger > .navigation {
 	background-color: #111111; }
-  
+
+.ipsCategory>.container .childContainers>div {
+    border-width: 0;
+}
+
 .ipsCategory>.container .childContainers>div:last-child{
     box-shadow: 5px 7px 5px -5px rgb(182, 182, 182); }
 

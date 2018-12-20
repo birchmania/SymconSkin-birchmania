@@ -498,7 +498,8 @@ div.ipsPanel.ipsDWDReport .title {
     border: none;
     padding: 0;
     margin: 0;
-    height: 100%; }
+    height: 100%;
+border-width: 0px 0;}
 
 .ipsLogin>.content>.configurators>div {
 	background-color: white;

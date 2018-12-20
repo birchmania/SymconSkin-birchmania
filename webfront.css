@@ -25,7 +25,7 @@ body{
 
 .ipsTabPane > .navigation, .ipsContentChanger > .navigation{
 	border-bottom: solid 1px #e5e5e5;
-	background: #555!important; }
+	background: #24292e!important; }
 
  
 
@@ -114,7 +114,7 @@ div.ipsWebFront {
     box-shadow: 5px 7px 5px -5px rgb(182, 182, 182); }
 
 .ipsPanel >.container {
-	color: #555!important; }
+	color: #24292e!important; }
 
 .ipsChart,
 .ipsChartDialog .content .ipsContainer {
@@ -141,7 +141,7 @@ div.ipsWebFront {
     min-width: 0!important;
     padding: 0 8px!important;
 	background: none!important;
-	color: #555!important; }
+	color: #24292e!important; }
 
 .ipsVariable > .content > .visual > .selector > div.selected ,
 .ipsVariable > .content > .visual > .enum > div.selected {
@@ -150,7 +150,7 @@ div.ipsWebFront {
 
 .ipsVariable > .content > .visual > .selector.overflowing > div.selected ,
 .ipsVariable > .content > .visual > .enum.overflowing > div.selected {
-	color: #555!important; }
+	color: #24292e!important; }
 
 
 /*
@@ -534,7 +534,7 @@ border-width: 0px 0;}
     background-size: cover; }
 
 .ipsLogin>.content>.configurators>div>.title {
-	color: #555;
+	color: #24292e;
 	margin: 0;
     top: 145px; }
     

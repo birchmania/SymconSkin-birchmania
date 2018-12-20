@@ -478,14 +478,14 @@ div.ipsPanel.ipsDWDReport .title {
  */	
 
 .ipsLogin .logoTop {
-	/* background-image: url(../img/logo.svg);  FIXME: blue Logo */
-	filter: invert(100%);
+	background-image: url(./img/Logo_Knockaut_RGB_100dpi_CMYK_negativ.png);
+	
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     height: 100px;
-    margin-left: -200px;
+    margin-left: -250px;
     margin-top: -100px;
-    width: 400px;
+    width: 500px;
 	
 }
 

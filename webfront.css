@@ -484,10 +484,11 @@ div.ipsPanel.ipsDWDReport .title {
     background-size: cover;
 	position: absolute;
 	width: 50%;
-	top: 15%;
+	top: 20%;
 	left: 0;
 	margin-left: 25%;
 	margin-top: 20px;
+	height: 100px;
 	/*
     height: 100px;
     margin-left: -200px;

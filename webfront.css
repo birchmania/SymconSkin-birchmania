@@ -37,8 +37,7 @@ body{
   border-bottom: solid 1px #B5E10A!important; /* important to circumvent first element has no border css */
   margin-bottom: -5px;
   font-weight: 400; 
-  color: #B5E10A; /*BRELAG*/
-  /* color: #3aa9ff */
+  color: #3aa9ff;
 }
 	
 div.ipsLogin,
@@ -130,7 +129,7 @@ div.ipsWebFront {
 	opacity: 1!important;  }
 .ipsDialog.ipsChartDialog > div > div > div.active,
 .ipsDialog.ipsChartDialog > div > div > div:hover {
-	color: #B5E10A!important; }
+	color: #3aa9ff!important; }
   
 /* prevent title from overlapping chart-options */
 .ipsDialog.ipsChartDialog > div > .title {
@@ -147,7 +146,7 @@ div.ipsWebFront {
 .ipsVariable > .content > .visual > .selector > div.selected ,
 .ipsVariable > .content > .visual > .enum > div.selected {
     background: none!important;
-	color: #B5E10A!important; }
+	color: #3aa9ff!important; }
 
 .ipsVariable > .content > .visual > .selector.overflowing > div.selected ,
 .ipsVariable > .content > .visual > .enum.overflowing > div.selected {
@@ -208,7 +207,7 @@ div.ipsWebFront {
 /* ipsEventDialog */
 .ipsDialog.ipsEventDialog>div>.content>.outerCenter>.center>.dayContainer>.day.active ,
 .ipsDialog .upDownSpinner>.scroll>.values>.active {
-	color: #B5E10A; }
+	color: #3aa9ff; }
 
 /* ipsSchedule Dialog */
 .ipsDialog.ipsEventDialog>div>.content>.outerCenter>.center>.linesContainer>.touchContainer>.sliderContainer>.slider {
@@ -257,7 +256,7 @@ div.ipsWebFront {
 	fill: white;
 	stroke: #ccc; }
 .ipsDialog.ipsCirclesliderDialog svg>text {
-	fill: #B5E10A; }
+	fill: #3aa9ff; }
 .ipsDialog.ipsCirclesliderDialog .sliderHandle {
     fill: rgba(58,169,255, 0.4);
     stroke: rgba(58,169,255, 0.2);
@@ -390,7 +389,7 @@ html body .ipsDialog.ipsChartDialog > div {
 
 .ipsWebFront.editable>.save {
     border: none;
-    background-color: #B5E10A; }
+    background-color: #3aa9ff; }
 
 .sub  > .ipsIconEdit{
 margin-top: 5px; }

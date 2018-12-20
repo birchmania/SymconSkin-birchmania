@@ -14,7 +14,11 @@ body{
 	background-position: center;
 	background-repeat: no-repeat;
 	position: absolute;
-
+width: 50%;
+	top: 15%;
+	left: 0;
+	margin-left: 25%;
+	margin-top: 20px;
 }
 
 

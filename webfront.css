@@ -88,7 +88,7 @@ div.ipsWebFront {
 /* reset container background */
 .ipsContainer.container{
 	background: #fff;
-	border-right: none; }
+	 }
 	
 .ipsContainer.container.hasChildren.nestedEven ,
 .ipsContainer.container.hasChildren.nestedEven > .childContainers{

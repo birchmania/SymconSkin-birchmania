@@ -39,11 +39,6 @@ body{
   font-weight: 400; 
   color: #3aa9ff;
 }
-
-.ipsTabPane>.navigation>.scroll>.buttons>div:hover {
-  color: #ff0000;
-}
-
 	
 div.ipsLogin,
 div.ipsWebFront {
@@ -62,7 +57,9 @@ div.ipsWebFront {
 
 .ipsTabPane>.navigation>.scroll>.buttons>div:hover {
 	opacity: 1;
-	font-weight: 400; }
+	font-weight: 400;
+  color: #BEBEBE;
+}
 	
 .ipsCategory {
 	padding: 10px 10px 10px 10px; }

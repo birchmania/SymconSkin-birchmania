@@ -147,6 +147,15 @@ div.ipsWebFront {
 	background: none!important;
 	color: #24292e!important; }
 
+.ipsVariable > .content > .visual > .selector > div:hover ,
+.ipsVariable > .content > .visual > .enum > div:hover {
+    min-width: 0!important;
+    padding: 0 8px!important;
+	background: none!important;
+	color: #ff0000!important; }
+
+
+
 .ipsVariable > .content > .visual > .selector > div.selected ,
 .ipsVariable > .content > .visual > .enum > div.selected {
     background: none!important;

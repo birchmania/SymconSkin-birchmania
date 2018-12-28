@@ -39,6 +39,11 @@ body{
   font-weight: 400; 
   color: #3aa9ff;
 }
+
+.ipsTabPane>.navigation>.scroll>.buttons>div:hover {
+  color: #ff0000;
+}
+
 	
 div.ipsLogin,
 div.ipsWebFront {

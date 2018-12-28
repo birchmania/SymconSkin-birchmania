@@ -58,7 +58,7 @@ div.ipsWebFront {
 .ipsTabPane>.navigation>.scroll>.buttons>div:hover {
 	opacity: 1;
 	font-weight: 400;
-  color: #BEBEBE;
+  color: #828890;
 }
 	
 .ipsCategory {
@@ -154,7 +154,7 @@ div.ipsWebFront {
     min-width: 0!important;
     padding: 0 8px!important;
 	background: none!important;
-	color: #ff0000!important; }
+	color: #828890!important; }
 
 
 

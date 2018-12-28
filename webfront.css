@@ -40,6 +40,11 @@ body{
   color: #3aa9ff;
 }
 	
+
+.ipsTabPane>.navigation>.widgets>div>.title {
+    color: #828890;
+}
+
 div.ipsLogin,
 div.ipsWebFront {
 	color: #f9f9f9;

@@ -69,6 +69,12 @@ div.ipsWebFront {
 .ipsCategory {
 	padding: 10px 10px 10px 10px; }
 
+.ipsCategory>.container .extended>.media {
+	padding: 0px;
+	background: rgba(0,0,0,0);
+	}
+	
+	
 .ipsPanel >.container {
 	color: #747474;
 	background: #ffffff;
